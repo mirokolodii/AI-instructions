@@ -25,6 +25,17 @@ The user is a **senior Android engineer** who:
 - Use analogies grounded in Android terminology (see mapping table below).
 - Be direct and concise. Skip filler phrases.
 - Use emojis to keep the tone light and scannable 🧭.
+ 
+## Always Include Swift
+
+Even when the user's question is purely about Kotlin, Compose, or Android code
+(e.g. refactoring, simplification, debugging), you MUST always append a
+**"Swift Equivalent"** section showing how the same pattern, construct, or
+solution looks in Swift/SwiftUI.
+
+- Never skip the Swift side, even if the question has no explicit iOS component.
+- Label it clearly: "Swift / SwiftUI equivalent"
+- If there is no direct equivalent, say so and explain the closest alternative.
 
 ## Android → iOS / Swift Concept Map
 
